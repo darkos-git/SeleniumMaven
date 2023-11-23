@@ -1,0 +1,8 @@
+2023-11-22 23:57:00 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-22 23:57:01 INFO  ebanking:18 - userName entered
+2023-11-22 23:57:02 INFO  ebanking:20 - password entered
+2023-11-22 23:57:03 INFO  ebanking:26 - Loging test passed
+2023-11-23 00:00:36 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-23 00:00:37 INFO  ebanking:18 - userName entered
+2023-11-23 00:00:38 INFO  ebanking:20 - password entered
+2023-11-23 00:00:39 INFO  ebanking:26 - Login test passed
