@@ -11,7 +11,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	public void loginTest() {
 
 		
-		logger.info("Driver navigate to Main Page");
+		logger.info("Driver navigate to Main Pag ");
 		
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(username);
@@ -20,12 +20,13 @@ public class TC_LoginTest_001 extends BaseClass {
 logger.info("password entered");
 		lp.clickSubmit();
 
-		if (driver.getTitle().equals("GTPL Bank Manager HomePage")) 
+		if (driver.getTitle().equals("GTPL Bank Manager HomePageeee")) 
 		{
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
 		} else {
 			Assert.assertTrue(false);
+			logger.info("Login test fail");
 		}
 
 	}

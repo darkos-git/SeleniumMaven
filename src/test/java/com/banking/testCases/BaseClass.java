@@ -40,6 +40,8 @@ public class BaseClass {
 		} else if (br.equals("ie")) {
 			System.setProperty("webdriver.ie.driver", readConfig.getIePath());
 			driver = new EdgeDriver();
+		}else {
+			System.out.println("Driver didnt find");
 		}
 		driver.get(baseUrl);
 	}
