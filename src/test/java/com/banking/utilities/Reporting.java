@@ -1,9 +1,16 @@
 package com.banking.utilities;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 
+import com.banking.testCases.BaseClass;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -18,62 +25,67 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Reporting extends TestListenerAdapter {
 
-	public ExtentSparkReporter htmlReporter;
-	public ExtentReports extent;
-	public ExtentTest logger;
-	
-	public void onStart(ITestContext testContext) {
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+    public ExtentTest logger;
+    Properties pro;
+    private ExtentReports reports;
+
+    public Reporting() {
+        File src = new File("./Configuration/config.properties");
+        try {
+            FileInputStream fis = new FileInputStream(src);
+            pro = new Properties();
+            pro.load(fis);
+        } catch (Exception e) {
+            System.out.println("Exception is" + e.getMessage());
+        }
+    }
+
+    public void onStart(ITestContext testContext) {
+        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         String repName = "Test-Report-" + timeStamp + ".html";
-        htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/" + repName);// specify location
-//        htmlReporter.loadConfig(new File(System.getProperty("user.dir") + "/extent-config.xml")); // load XML config
-        extent = new ExtentReports();
-        extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("Host name", "localhost");
-        extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("user", "pavan");
-	
-	htmlReporter.config().setDocumentTitle("Inet Banking Test Project");//Title of report
-	htmlReporter.config().setReportName("Functional Test Report");//name of the report
-	htmlReporter.config().setTheme(Theme.DARK);
-	
-	}
-	public void onTestSuccess(ITestResult tr) {
-		logger=extent.createTest(tr.getName());//create new entry in th report
-		logger.log(Status.PASS,MarkupHelper.createLabel(tr.getName(),ExtentColor.GREEN));//send the passed information
-	}
-	
-	public void onTestFailure(ITestResult tr) {
-		logger=extent.createTest(tr.getName());//create new entry in th report
-		logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(),ExtentColor.RED));//send the Failure information
-		
-		String screenshotPath = System.getProperty("user.dir")+"//Screenshots"+tr.getName()+".png";
-		File f = new File(screenshotPath);
-		
-		if(f.exists()) {
-			logger.fail("Screenshot is below:" + logger.addScreenCaptureFromPath(screenshotPath));
-		}
-		
-		
-		
-		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+        System.out.println(repName);
+        ExtentSparkReporter spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/Log/" + repName);
+        spark.config().setDocumentTitle("Inet Banking Test Project");
+        spark.config().setReportName("Functional Test Report");
+        spark.config().setTheme(Theme.DARK);
+        spark.config().setEncoding("utf-8");
+
+        this.reports = new ExtentReports();  // Use class-level variable
+        this.reports.attachReporter(spark);
+
+        this.reports.setSystemInfo("Host name", "localhost");
+        this.reports.setSystemInfo("Environment", "QA");
+        this.reports.setSystemInfo("user", "Darko");
+
+        ExtentTest logger = this.reports.createTest("My Test");
+        logger.log(Status.INFO, "Starting browser");
+    }
+
+    public void onTestSuccess(ITestResult tr) {
+        logger = reports.createTest(tr.getName());
+        logger.log(Status.PASS, MarkupHelper.createLabel(tr.getName(), ExtentColor.GREEN));
+        reports.flush();
+    }
+
+    public void onTestFailure(ITestResult tr) {
+        logger = reports.createTest(tr.getName());
+        logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
+
+        String screenshotPath = System.getProperty("user.dir") + "//Screenshot//" + tr.getName() + ".png";
+        WebDriver drv = BaseClass.driver;
+        File file = ((TakesScreenshot) drv).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File(screenshotPath));
+        } catch (Exception e) {
+            System.err.println(e);
+        }
+        reports.flush();
+    }
+
+    public void onTestSkipped(ITestResult tr) {
+        logger = reports.createTest(tr.getName());
+        logger.log(Status.SKIP, MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
+        reports.flush();
+    }
+
 }
