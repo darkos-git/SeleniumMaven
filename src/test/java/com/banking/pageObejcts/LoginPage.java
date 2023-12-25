@@ -31,8 +31,8 @@ public class LoginPage {
         txtPassword.sendKeys(pwd);
     }
 
-    public void clickSubmit() {
-        btnLogin.click();
-    }
+	public void clickSubmit() {
+		btnLogin.click();
+	}
 
 }

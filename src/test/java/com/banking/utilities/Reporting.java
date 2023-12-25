@@ -6,11 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
 
-import com.banking.testCases.BaseClass;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -39,7 +34,6 @@ public class Reporting extends TestListenerAdapter {
             System.out.println("Exception is" + e.getMessage());
         }
     }
-
     public void onStart(ITestContext testContext) {
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         String repName = "Test-Report-" + timeStamp + ".html";
@@ -71,14 +65,7 @@ public class Reporting extends TestListenerAdapter {
         logger = reports.createTest(tr.getName());
         logger.log(Status.FAIL, MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
 
-        String screenshotPath = System.getProperty("user.dir") + "//Screenshot//" + tr.getName() + ".png";
-        WebDriver drv = BaseClass.driver;
-        File file = ((TakesScreenshot) drv).getScreenshotAs(OutputType.FILE);
-        try {
-            FileUtils.copyFile(file, new File(screenshotPath));
-        } catch (Exception e) {
-            System.err.println(e);
-        }
+
         reports.flush();
     }
 
@@ -87,5 +74,8 @@ public class Reporting extends TestListenerAdapter {
         logger.log(Status.SKIP, MarkupHelper.createLabel(tr.getName(), ExtentColor.ORANGE));
         reports.flush();
     }
+    public String getReport (ITestResult tr) {
+    return tr.getName();
+    };
 
 }

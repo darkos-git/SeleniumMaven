@@ -1,9 +1,10 @@
 package com.banking.testCases;
 
+import com.banking.utilities.Reporting;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.banking.pageObject.LoginPage;
+import com.banking.pageObejcts.LoginPage;
 
 import java.io.IOException;
 

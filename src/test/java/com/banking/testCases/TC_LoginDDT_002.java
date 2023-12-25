@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class TestCasesLoginDDT002 extends BaseClass {
+public class TC_LoginDDT_002 extends BaseClass {
     @Test(dataProvider = "LoginData")
     public void loginDDT() {
 
