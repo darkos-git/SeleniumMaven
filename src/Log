@@ -1,0 +1,214 @@
+2023-11-22 23:57:00 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-22 23:57:01 INFO  ebanking:18 - userName entered
+2023-11-22 23:57:02 INFO  ebanking:20 - password entered
+2023-11-22 23:57:03 INFO  ebanking:26 - Loging test passed
+2023-11-23 00:00:36 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-23 00:00:37 INFO  ebanking:18 - userName entered
+2023-11-23 00:00:38 INFO  ebanking:20 - password entered
+2023-11-23 00:00:39 INFO  ebanking:26 - Login test passed
+2023-11-24 23:25:02 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-24 23:25:02 INFO  ebanking:18 - userName entered
+2023-11-24 23:25:03 INFO  ebanking:20 - password entered
+2023-11-24 23:25:03 INFO  ebanking:26 - Login test passed
+2023-11-25 00:33:03 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 00:33:05 INFO  ebanking:18 - userName entered
+2023-11-25 00:33:05 INFO  ebanking:20 - password entered
+2023-11-25 00:33:06 INFO  ebanking:26 - Login test passed
+2023-11-25 14:11:27 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 14:11:28 INFO  ebanking:18 - userName entered
+2023-11-25 14:11:28 INFO  ebanking:20 - password entered
+2023-11-25 14:11:29 INFO  ebanking:26 - Login test passed
+2023-11-25 15:37:51 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 15:37:53 INFO  ebanking:18 - userName entered
+2023-11-25 15:37:53 INFO  ebanking:20 - password entered
+2023-11-25 15:37:54 INFO  ebanking:26 - Login test passed
+2023-11-25 15:43:51 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 15:43:52 INFO  ebanking:18 - userName entered
+2023-11-25 15:43:53 INFO  ebanking:20 - password entered
+2023-11-25 15:43:54 INFO  ebanking:26 - Login test passed
+2023-11-25 15:46:29 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 15:46:30 INFO  ebanking:18 - userName entered
+2023-11-25 15:46:30 INFO  ebanking:20 - password entered
+2023-11-25 15:46:32 INFO  ebanking:26 - Login test passed
+2023-11-25 22:26:27 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-25 22:26:27 INFO  ebanking:18 - userName entered
+2023-11-25 22:26:27 INFO  ebanking:20 - password entered
+2023-11-25 22:26:29 INFO  ebanking:26 - Login test passed
+2023-11-26 13:43:33 INFO  ebanking:14 - Driver navigate to Main Page
+2023-11-26 13:43:34 INFO  ebanking:18 - userName entered
+2023-11-26 13:43:34 INFO  ebanking:20 - password entered
+2023-11-26 13:43:35 INFO  ebanking:26 - Login test passed
+2023-11-26 13:45:00 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-26 13:45:00 INFO  ebanking:18 - userName entered
+2023-11-26 13:45:00 INFO  ebanking:20 - password entered
+2023-11-26 13:45:01 INFO  ebanking:26 - Login test passed
+2023-11-26 13:46:07 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-26 13:46:08 INFO  ebanking:18 - userName entered
+2023-11-26 13:46:08 INFO  ebanking:20 - password entered
+2023-11-26 13:46:09 INFO  ebanking:26 - Login test passed
+2023-11-26 16:23:42 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-26 16:23:42 INFO  ebanking:18 - userName entered
+2023-11-26 16:23:42 INFO  ebanking:20 - password entered
+2023-11-26 16:23:44 INFO  ebanking:26 - Login test passed
+2023-11-26 16:24:51 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-26 16:24:51 INFO  ebanking:18 - userName entered
+2023-11-26 16:24:51 INFO  ebanking:20 - password entered
+2023-11-26 16:24:52 INFO  ebanking:26 - Login test passed
+2023-11-26 16:29:43 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-26 16:29:44 INFO  ebanking:18 - userName entered
+2023-11-26 16:29:44 INFO  ebanking:20 - password entered
+2023-11-28 14:57:03 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-28 14:57:03 INFO  ebanking:18 - userName entered
+2023-11-28 14:57:03 INFO  ebanking:20 - password entered
+2023-11-28 15:06:51 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-28 15:06:51 INFO  ebanking:18 - userName entered
+2023-11-28 15:06:51 INFO  ebanking:20 - password entered
+2023-11-29 05:43:11 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 05:43:12 INFO  ebanking:18 - userName entered
+2023-11-29 05:43:12 INFO  ebanking:20 - password entered
+2023-11-29 05:44:01 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 05:44:01 INFO  ebanking:18 - userName entered
+2023-11-29 05:44:01 INFO  ebanking:20 - password entered
+2023-11-29 05:44:02 INFO  ebanking:25 - Login test passed
+2023-11-29 05:47:28 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 05:47:29 INFO  ebanking:18 - userName entered
+2023-11-29 05:47:29 INFO  ebanking:20 - password entered
+2023-11-29 06:14:42 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 06:14:42 INFO  ebanking:18 - userName entered
+2023-11-29 06:14:42 INFO  ebanking:20 - password entered
+2023-11-29 06:14:43 INFO  ebanking:25 - Login test passed
+2023-11-29 06:27:09 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 06:27:09 INFO  ebanking:18 - userName entered
+2023-11-29 06:27:09 INFO  ebanking:20 - password entered
+2023-11-29 06:27:10 INFO  ebanking:25 - Login test passed
+2023-11-29 06:36:53 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 06:36:53 INFO  ebanking:18 - userName entered
+2023-11-29 06:36:53 INFO  ebanking:20 - password entered
+2023-11-29 06:36:54 INFO  ebanking:25 - Login test passed
+2023-11-29 07:22:04 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 07:22:04 INFO  ebanking:18 - userName entered
+2023-11-29 07:22:04 INFO  ebanking:20 - password entered
+2023-11-29 07:22:05 INFO  ebanking:25 - Login test passed
+2023-11-29 07:29:24 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 07:29:24 INFO  ebanking:18 - userName entered
+2023-11-29 07:29:24 INFO  ebanking:20 - password entered
+2023-11-29 07:29:25 INFO  ebanking:25 - Login test passed
+2023-11-29 08:00:36 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:00:36 INFO  ebanking:18 - userName entered
+2023-11-29 08:00:36 INFO  ebanking:20 - password entered
+2023-11-29 08:00:37 INFO  ebanking:25 - Login test passed
+2023-11-29 08:02:57 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:02:57 INFO  ebanking:18 - userName entered
+2023-11-29 08:02:57 INFO  ebanking:20 - password entered
+2023-11-29 08:02:58 INFO  ebanking:25 - Login test passed
+2023-11-29 08:09:56 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:09:56 INFO  ebanking:18 - userName entered
+2023-11-29 08:09:56 INFO  ebanking:20 - password entered
+2023-11-29 08:13:50 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:13:50 INFO  ebanking:18 - userName entered
+2023-11-29 08:13:50 INFO  ebanking:20 - password entered
+2023-11-29 08:14:54 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:14:54 INFO  ebanking:18 - userName entered
+2023-11-29 08:14:54 INFO  ebanking:20 - password entered
+2023-11-29 08:18:01 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:18:01 INFO  ebanking:18 - userName entered
+2023-11-29 08:18:01 INFO  ebanking:20 - password entered
+2023-11-29 08:18:45 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:18:45 INFO  ebanking:18 - userName entered
+2023-11-29 08:18:45 INFO  ebanking:20 - password entered
+2023-11-29 08:21:06 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 08:21:06 INFO  ebanking:18 - userName entered
+2023-11-29 08:21:06 INFO  ebanking:20 - password entered
+2023-11-29 09:08:53 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:08:53 INFO  ebanking:18 - userName entered
+2023-11-29 09:08:53 INFO  ebanking:20 - password entered
+2023-11-29 09:16:03 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:16:03 INFO  ebanking:18 - userName entered
+2023-11-29 09:16:03 INFO  ebanking:20 - password entered
+2023-11-29 09:18:10 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:18:10 INFO  ebanking:18 - userName entered
+2023-11-29 09:18:10 INFO  ebanking:20 - password entered
+2023-11-29 09:19:16 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:19:16 INFO  ebanking:18 - userName entered
+2023-11-29 09:19:17 INFO  ebanking:20 - password entered
+2023-11-29 09:20:24 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:20:24 INFO  ebanking:18 - userName entered
+2023-11-29 09:20:24 INFO  ebanking:20 - password entered
+2023-11-29 09:25:01 INFO  ebanking:14 - Driver navigate to Main Pag 
+2023-11-29 09:25:01 INFO  ebanking:18 - userName entered
+2023-11-29 09:25:01 INFO  ebanking:20 - password entered
+2023-11-29 09:40:12 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:40:12 INFO  ebanking:18 - userName entered
+2023-11-29 09:40:12 INFO  ebanking:20 - password entered
+2023-11-29 09:40:13 INFO  ebanking:27 - Login test fail
+2023-11-29 09:41:57 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:41:57 INFO  ebanking:18 - userName entered
+2023-11-29 09:41:58 INFO  ebanking:20 - password entered
+2023-11-29 09:41:59 INFO  ebanking:27 - Login test fail
+2023-11-29 09:53:09 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:53:09 INFO  ebanking:18 - userName entered
+2023-11-29 09:53:10 INFO  ebanking:20 - password entered
+2023-11-29 09:53:40 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:53:40 INFO  ebanking:18 - userName entered
+2023-11-29 09:53:40 INFO  ebanking:20 - password entered
+2023-11-29 09:53:41 INFO  ebanking:27 - Login test fail
+2023-11-29 09:56:25 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:56:26 INFO  ebanking:18 - userName entered
+2023-11-29 09:56:26 INFO  ebanking:20 - password entered
+2023-11-29 09:56:27 INFO  ebanking:27 - Login test fail
+2023-11-29 09:59:47 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 09:59:48 INFO  ebanking:18 - userName entered
+2023-11-29 09:59:48 INFO  ebanking:20 - password entered
+2023-11-29 09:59:49 INFO  ebanking:27 - Login test fail
+2023-11-29 10:13:36 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 10:13:36 INFO  ebanking:18 - userName entered
+2023-11-29 10:13:36 INFO  ebanking:20 - password entered
+2023-11-29 10:13:37 INFO  ebanking:27 - Login test fail
+2023-11-29 10:15:57 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 10:15:57 INFO  ebanking:18 - userName entered
+2023-11-29 10:15:57 INFO  ebanking:20 - password entered
+2023-11-29 10:15:58 INFO  ebanking:27 - Login test fail
+2023-11-29 11:19:45 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 11:19:45 INFO  ebanking:18 - userName entered
+2023-11-29 11:19:45 INFO  ebanking:20 - password entered
+2023-11-29 11:19:46 INFO  ebanking:27 - Login test fail
+2023-11-29 11:32:02 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 11:32:03 INFO  ebanking:18 - userName entered
+2023-11-29 11:32:03 INFO  ebanking:20 - password entered
+2023-11-29 11:32:04 INFO  ebanking:27 - Login test fail
+2023-11-29 14:50:27 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 14:50:27 INFO  ebanking:18 - userName entered
+2023-11-29 14:50:28 INFO  ebanking:20 - password entered
+2023-11-29 14:50:29 INFO  ebanking:27 - Login test fail
+2023-11-29 14:57:28 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 14:57:29 INFO  ebanking:18 - userName entered
+2023-11-29 14:57:29 INFO  ebanking:20 - password entered
+2023-11-29 14:57:30 INFO  ebanking:27 - Login test fail
+2023-11-29 16:06:00 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:06:01 INFO  ebanking:18 - userName entered
+2023-11-29 16:06:01 INFO  ebanking:20 - password entered
+2023-11-29 16:06:02 INFO  ebanking:27 - Login test fail
+2023-11-29 16:12:43 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:12:43 INFO  ebanking:18 - userName entered
+2023-11-29 16:12:43 INFO  ebanking:20 - password entered
+2023-11-29 16:12:44 INFO  ebanking:27 - Login test fail
+2023-11-29 16:29:31 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:29:31 INFO  ebanking:18 - userName entered
+2023-11-29 16:29:32 INFO  ebanking:20 - password entered
+2023-11-29 16:29:32 INFO  ebanking:27 - Login test fail
+2023-11-29 16:31:10 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:31:11 INFO  ebanking:18 - userName entered
+2023-11-29 16:31:11 INFO  ebanking:20 - password entered
+2023-11-29 16:31:12 INFO  ebanking:25 - Login test passed
+2023-11-29 16:34:04 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:34:04 INFO  ebanking:18 - userName entered
+2023-11-29 16:34:05 INFO  ebanking:20 - password entered
+2023-11-29 16:34:05 INFO  ebanking:25 - Login test passed
+2023-11-29 16:35:19 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:35:19 INFO  ebanking:18 - userName entered
+2023-11-29 16:35:20 INFO  ebanking:20 - password entered
+2023-11-29 16:35:20 INFO  ebanking:25 - Login test passed
+2023-11-29 16:37:09 INFO  ebanking:14 - Driver navigate to Main Page 
+2023-11-29 16:37:10 INFO  ebanking:18 - userName entered
+2023-11-29 16:37:10 INFO  ebanking:20 - password entered
+2023-11-29 16:37:10 INFO  ebanking:25 - Login test passed

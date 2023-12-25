@@ -3,12 +3,15 @@ package com.banking.testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.banking.pageObejcts.LoginPage;
+import com.banking.pageObject.LoginPage;
+
+import java.io.IOException;
 
 public class TC_LoginTest_001 extends BaseClass {
 
+
     @Test
-    public void loginTest() {
+    public void loginTest() throws IOException {
 
 
         logger.info("Driver navigate to Main Page ");
@@ -24,8 +27,9 @@ public class TC_LoginTest_001 extends BaseClass {
             Assert.assertTrue(true);
             logger.info("Login test passed");
         } else {
+            captureScreenshot(driver,"loginTest");
+            Assert.fail();
             logger.info("Login test fail");
-            Assert.assertTrue(false);
         }
 
     }
